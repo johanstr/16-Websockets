@@ -6,13 +6,13 @@
  * Reset.css - Om alle browsers op dezelfde instellingen te krijgen
  */
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h'Indie Flower', cursivequote, pre,
+h1, h2, h3, h4, h5, h6, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-ieldset, form, label, legend,
+fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -23,7 +23,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,7 +62,7 @@ html, body {
 #mainContainer {
     width: 1000px;
     margin: 0 auto;
-    margin-top: 50px;s
+    margin-top: 50px;
 }
 
 h1 {
@@ -95,7 +95,7 @@ html, body {
     height: 600px;
 }
 
-#speelveld table tr td {
+#speelveld table tr td  {
     width: 200px;
     height: 200px;
     cursor: pointer;
@@ -194,4 +194,21 @@ button.game-button {
     -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     border: 0px;
+}
+
+.pull-right {
+    display: inline-block;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.game-messages {
+    padding: 5px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    font-size: 9px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
 }
