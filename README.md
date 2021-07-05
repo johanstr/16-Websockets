@@ -1,12 +1,14 @@
 # MODULE 16 - Web Sockets 2.0
 De startbestanden die je hier vindt worden gebruikt voor de instructiemomenten ten behoeve van module 16.  
   
-# MAPPEN
+# MAPPEN & BESTANDEN
 Je vindt in deze repository de mappen:  
-1. bke  
+1. **bke**  
     In deze map staan de startbestanden voor de client app die we samen gaan bouwen.  
-2. server  
-    In deze map staan de startbestanden voor de server die we samen gaan bouwen.  
+2. **server**  
+    In deze map staan de startbestanden voor de server die we samen gaan bouwen.
+3. **Handleiding Server BKE.pdf**  
+    Dit is de handleiding die ons verteld hoe we a) de server gaan bouwen en b) waar we aan moeten voldoen tijdens het programmeren van onze client app.
 
 # VOORBEREIDINGEN
 Om gebruik te kunnen maken van de bestanden in deze repository dien je eerst de git command-line tool op je laptop te installeren. Als je dit al gedaan hebt kun je het volgende overslaan.  
